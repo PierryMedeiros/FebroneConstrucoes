@@ -1,0 +1,167 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif, Arial, Helvetica;
+}
+
+header{
+    max-height: 130px;
+    width: 100%;
+    padding: 15px;
+    background-color: #d4d2d2fb;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid  rgb(243, 173, 21);
+}
+
+header > #logo{
+    font-weight: 700;
+    font-size: 3.1em;
+    font-style: italic;
+    color: rgb(243, 173, 21);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.719);
+    display: block;
+    width: 300px;
+    margin-left: 20px;
+}
+
+header > #logo > img{
+    height: 40px;
+    transform: rotate();
+}
+
+header > nav{
+    margin: 20px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.274);
+}
+
+header > nav > a:hover{
+    color: black;
+}
+
+header > nav > span{
+    margin: 2px;
+    color: rgba(51, 51, 51, 0.692);
+    font-size: 28px;
+}
+
+#ajustarTela{
+    height: 20%;
+    width: 100%;
+}
+
+article{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main > #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    padding: 15px;
+}
+
+main > #container > h2{
+    margin-bottom: 50px;
+    font-size: 2em;
+    color: rgb(71, 70, 70);
+}
+
+main > #container > p{
+    font-size: 1.3em;
+    text-align: center;
+    color: rgba(70, 67, 67, 0.822);
+}
+
+#whats{
+    width: 100px;
+    right: 15px;
+    bottom: 15px;
+    position: fixed;
+}
+
+#servicosBarra{
+    padding: 20px;
+    width: 100%;
+    background-color: #e7e6e6fb;
+    text-align: center;
+    border-bottom: 3px solid rgb(211, 211, 211);
+    color: rgb(36, 36, 36);
+}
+
+div#faleConosco{
+    background-color: rgb(243, 173, 21);
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+#contato{
+    display: flex;
+    height: 55%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#contato > div{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 160px;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+#contato > div > h3{
+    font-size: 1.6em;
+}
+
+#contato > div > p{
+    font-size: 1.2em;
+}
+
+.icone{
+    height: 30px;
+    margin-right: 5px;
+}
+
+footer{
+    border-top: 2px solid rgb(179, 179, 179);
+    text-align: center;
+    padding: 15px;
+}

@@ -72,11 +72,11 @@ btn.addEventListener("mouseover", animationButton)
 btn.addEventListener("mouseout", cancelAnimationButton)
 //Fim do botão
 
-//Animação portifolio
+//suavisação do scroll
 
-var portifolio = document.querySelectorAll(".portf");
-var servicosH2 = document.querySelectorAll(".servicos");
-var descricao = document.querySelectorAll(".description");
+const menuItems = document.querySelectorAll('.menu a');
+
+console.log(menuItems);
 
 //git remote add origin https://github.com/PierryMedeiros/febroneConstrucoes.git
 //git branch -M main

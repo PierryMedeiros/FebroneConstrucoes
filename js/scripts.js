@@ -78,9 +78,6 @@ var portifolio = document.querySelectorAll(".portf");
 var servicosH2 = document.querySelectorAll(".servicos");
 var descricao = document.querySelectorAll(".description");
 
-//portifolio[0].addEventListener("mouseover", function(){
-   // servicosH2[0].style.color="#333"
-    
-//})
+//git remote add origin https://github.com/PierryMedeiros/febroneConstrucoes.git
 //git branch -M main
 //git push -u origin main

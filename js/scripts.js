@@ -76,7 +76,22 @@ btn.addEventListener("mouseout", cancelAnimationButton)
 
 const menuItems = document.querySelectorAll('.menu a');
 
-console.log(menuItems);
+menuItems.forEach(item => {
+    item.addEventListener('click', scrollToIdOnClick);
+})
+
+function scrollToIdOnClick(event){
+    event.preventDefault();
+    const element = event.target;
+    const id = element.getAttribute('href');
+    const to = document.querySelector(id).offsetTop;
+
+    window.scroll({
+        top: to - 120,
+        behavior: "smooth"
+    })
+}
+// Fim da suavisação
 
 //git remote add origin https://github.com/PierryMedeiros/febroneConstrucoes.git
 //git branch -M main

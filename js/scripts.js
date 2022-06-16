@@ -76,7 +76,7 @@ btn.addEventListener("mouseout", cancelAnimationButton)
 
 var portifolio = document.querySelectorAll(".portf");
 var servicosH2 = document.querySelectorAll(".servicos");
-var descricao = document.querySelectorAll(".description")
+var descricao = document.querySelectorAll(".description");
 
 //portifolio[0].addEventListener("mouseover", function(){
    // servicosH2[0].style.color="#333"

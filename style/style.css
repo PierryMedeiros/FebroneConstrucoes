@@ -106,6 +106,7 @@ main > #container > p{
     right: 15px;
     bottom: 15px;
     position: fixed;
+    cursor: pointer;
 }
 
 #servicosBarra{
